@@ -22,6 +22,7 @@ NODES=(
     "https://github.com/ClownsharkBatwing/RES4LYF"
     "https://github.com/giriss/comfy-image-saver"
     "https://github.com/ltdrdata/ComfyUI-Impact-Subpack"
+    "https://github.com/heshengtao/comfyui_LLM_party"
 )
 
 WORKFLOWS=(
