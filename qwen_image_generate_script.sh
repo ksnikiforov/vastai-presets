@@ -1,6 +1,7 @@
 #!/bin/bash
 
 source /venv/main/bin/activate
+
 COMFYUI_DIR=${WORKSPACE}/ComfyUI
 
 # Packages are installed after nodes so we can fix them...
@@ -10,6 +11,8 @@ APT_PACKAGES=(
     #"package-2"
 )
 
+export CMAKE_ARGS="-DGGML_CUDA=on"
+export FORCE_CMAKE=1
 PIP_PACKAGES=(
     "llama-cpp-python"
 )
