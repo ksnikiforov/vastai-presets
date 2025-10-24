@@ -24,7 +24,11 @@ NODES=(
     "https://github.com/ClownsharkBatwing/RES4LYF"
     "https://github.com/giriss/comfy-image-saver"
     "https://github.com/ltdrdata/ComfyUI-Impact-Subpack"
-    "https://github.com/heshengtao/comfyui_LLM_party"
+    "https://github.com/LAOGOU-666/Comfyui-Memory_Cleanup"
+    "https://github.com/gokayfem/ComfyUI-fal-API"
+    "https://github.com/SeargeDP/ComfyUI_Searge_LLM"
+    "https://github.com/Enashka/ComfyUI-nhknodes"
+    "https://github.com/nosiu/comfyui-text-randomizer"
 )
 
 WORKFLOWS=(
