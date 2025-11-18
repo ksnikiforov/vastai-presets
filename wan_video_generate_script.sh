@@ -14,6 +14,14 @@ APT_PACKAGES=(
 export CMAKE_ARGS="-DGGML_CUDA=on"
 export FORCE_CMAKE=1
 PIP_PACKAGES=(
+    "gspread"
+    "websocket-client"
+    "google-api-python-client"
+    "google-auth"
+    "google-auth-oauthlib"
+    "google-auth-httplib2"
+    "gspread-dataframe"
+    "pandas"
 )
 
 NODES=(
